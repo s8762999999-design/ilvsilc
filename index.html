@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ILVS AI 智慧平台</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    /* 🔷 導覽列 */
+    .navbar {
+      background: #1e3a8a;
+      color: white;
+      padding: 15px 20px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    /* 🔷 容器 */
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    /* 🔷 卡片區 */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* 🔷 iframe */
+    iframe {
+      width: 100%;
+      height: 75vh;
+      border: none;
+      border-radius: 10px;
+    }
+
+    /* 📱 手機優化 */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      iframe {
+        height: 65vh;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    ILVS AI 智慧學習平台
+  </div>
+
+  <div class="container">
+
+    <h1>營養師亮亮 AI 工具入口</h1>
+    <p class="subtitle">整合 AI 學習、研究與應用工具</p>
+
+    <!-- 🔷 工具卡片 -->
+    <div class="grid">
+
+      <div class="card">
+        <h3>AI 探索研究成果</h3>
+        <p>查看完整 AI 分析與研究頁面</p>
+        <a href="#ai">前往查看 →</a>
+      </div>
+
+      <div class="card">
+        <h3>GitHub 網站</h3>
+        <p>個人 AI 平台首頁</p>
+        <a href="https://ilvsilc.github.io" target="_blank">開啟 →</a>
+      </div>
+
+      <div class="card">
+        <h3>AI 工具（預留）</h3>
+        <p>未來可放 ChatGPT / Gemini / Claude</p>
+        <a href="#">即將推出</a>
+      </div>
+
+    </div>
+
+    <!-- 🔷 AI內容 -->
+    <h2 id="ai">AI 探索研究內容</h2>
+
+    <iframe 
+      src="https://htmlpreview.github.io/?https://gist.githubusercontent.com/s8762999999-design/b785b981f108a098354f0d307f2b25dd/raw/aa8a7202c1533afeab6f749783147264101f567f/%25E7%2587%259F%25E9%25A4%258A%25E5%25B8%25AB%25E4%25BA%25AE%25E4%25BA%25AEAI%25E6%258E%25A2%25E7%25B4%25A2%25E7%25A0%2594%25E7%25A9%25B6%25E6%2588%2590%25E6%259E%259C%2520202604061034">
+    </iframe>
+
+  </div>
+
+</body>
+</html>
